@@ -1,0 +1,85 @@
+*{
+    color: white;
+}
+ .cam1{
+    background-color: black;
+ }
+ .cam2{
+    background-color: silver;
+ }
+ .cam3{
+    background-color: gray;
+ }
+ .cam4{
+    background-color: #3498db;
+ }
+ .cam5{
+    background-color: maroon;
+ }
+ .cam6{
+    background-color: red;
+ }
+ .cam7{
+    background-color: purple;
+ }
+ .cam8{
+    background-color: rgb(151, 64, 151);
+    color: black;
+ }
+ .cam9{
+    background-color: green;
+ }
+ .cam10{
+    background-color: lime;
+    color: black;
+ }
+ .cam11{
+    background-color: olive;
+ }
+ .cam12{
+    background-color: yellow;
+    color: black;
+ }
+ .cam13{
+    background-color: navy;
+ }
+ .cam14{
+    background-color: blue;
+ }
+ .cam15{
+    background-color: teal;
+ }
+ .cam16{
+    background-color: aqua;
+    color: black;
+ }
+
+ ol{
+    width: 400px;
+    margin: auto;
+}
+li{
+    padding: 10px;
+} 
+ol{
+    list-style-position: inside;
+}
+ol li:hover{
+    background-color: white;
+    color: black;
+}
+*{
+    font-size: 20px;
+}
+ol li{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
