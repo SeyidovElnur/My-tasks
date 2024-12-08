@@ -1,0 +1,58 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1120px;
+    width: 70%;
+    margin: 40px auto;
+}
+
+.comps {
+    border: 1px solid #999999;
+    width: 400px;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 3px
+}
+
+#lenovo {
+    width: 400px;
+    height: 325px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.produc {
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.price{
+    font-size: 20px;
+    color: red;
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.kharacter{
+  
+    background-color: gray;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    
+}
+a{
+    cursor: pointer;
+}
+.back{
+    color: grey;
+}
