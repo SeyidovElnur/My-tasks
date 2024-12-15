@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image1{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    background-image: url(https://i.etsystatic.com/41031696/r/il/d9cf45/5321081475/il_fullxfull.5321081475_apn6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 84px;
+    margin-bottom: 54px;
+    position: relative;
+    z-index: 1;
+    display: flex
+  
+}
+.overlay{
+    background-color: black;
+    inset: 0;
+    opacity: .3;
+    position: absolute;
+}
+

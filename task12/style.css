@@ -1,0 +1,118 @@
+.employe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    
+    width: 210px;
+    margin: 20px; 
+    background-color: white;
+}
+.section{
+    display: flex;
+}
+.first-text{
+    padding-top: 60px;
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 70px;
+}
+.image {
+
+    height: 200px;
+    background-size: cover;
+}
+.work-1{
+   
+    background-image: url("https://sklc-tinymce-2021.s3.amazonaws.com/comp/2023/03/17%20(6)_1678268248.png");
+    width: 250px;
+    height: 250px;
+}
+.work-2{
+   
+    background-image: url("https://img.freepik.com/free-photo/portrait-beautiful-woman-engineer_23-2148826527.jpg");
+    width: 250px;
+    height: 250px;
+}
+.work-3{
+   
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnYw0HpgC2rKoCTHubnkGK4IJMS1I2_kVcWzI885oAmnnGxdArWVVfMke3W3CdAUPZxT4&usqp=CAU");
+    width: 250px;
+    height: 250px;
+}
+.work-4{
+   
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2247564155/display_1500/stock-photo-architecture-project-management-and-portrait-of-black-woman-at-construction-site-for-civil-2247564155.jpg");
+    width: 250px;
+    height: 250px;
+}
+h2{
+  padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+h2:hover{
+    cursor: pointer;
+}
+.name{
+    color: grey;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.social{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 300px;
+    padding-left: 8px;
+    position: absolute;
+    top: 10px;
+    bottom: 4px;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.icon{
+    background-color: rgb(51, 49, 49);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon:hover{
+    background-color: orange;
+    cursor: pointer;
+    border: none;
+}
+.image:hover .social{
+    visibility: visible;
+    opacity: 1;
+}
+
+.info{
+    
+    background-color: white;
+    width: 250px;
+    height: 85px;
+    
+}
+.info:hover{
+    background-color: orange;
+}
+
+
+
