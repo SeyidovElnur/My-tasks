@@ -1,0 +1,15 @@
+git local:
+
+git config --global user.name "SizinAdiniz"
+git config --global user.email "sizin-email@gmail.com"
+
+git config --global --list  (yoxlamaq)
+
+
+repostori:
+git init
+git add .
+git commit -m "Ilk commit"
+git branch -M main
+git remote add origin git@github.com:sizinIstifadeciAdiniz/RepoAdiniz.git
+git push -u origin main

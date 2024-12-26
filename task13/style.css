@@ -1,0 +1,40 @@
+.welcome{
+    color: orange;
+    font-weight: 600;
+}
+.quantity{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.text{
+    color: rgb(180, 170, 170);
+    line-height: 1.8;
+}
+.help{
+    font-size: 20px;
+}
+.icons{
+    font-size: 50px;
+    color: orange;
+}
+.box{
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    padding: 25px;
+}
+.box-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+.box:hover{
+    background-color: rgb(57, 51, 51);
+    color: white;
+}
+.box:hover .icons{
+    color: white;
+}
+.box:hover .text{
+    color: white;
+}

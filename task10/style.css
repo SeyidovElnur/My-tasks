@@ -7,11 +7,12 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
 .image1{
     width: 100%;
     position: relative;
     height: 100%;
-    background-image: url(https://i.etsystatic.com/41031696/r/il/d9cf45/5321081475/il_fullxfull.5321081475_apn6.jpg);
+    background-image: url(https://preview.colorlib.com/theme/startup2/img/banner/banner.png.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,19 +23,47 @@ body{
 .text{
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 78px;
+    font-size: 100px;
     font-weight: 400;
-    line-height: 84px;
+    line-height: 120px;
     margin-bottom: 54px;
+    margin-right: 200px;
     position: relative;
     z-index: 1;
-    display: flex
+    display: flex;
+    
   
+}
+.btn{
+    position: relative;
+
+    background-color: blueviolet;
+    color: white;
+
+    margin-top: 700px;
+    margin-left: 10px;
+    border-radius: 30px;
+    padding: 10px 15px;
+    border: 5px solid blueviolet;
+    font-size: 30px;
+    font-weight: 600;
+    width: fit-content;
+    z-index: 1;
+  
+}
+.btn:hover{
+background-color: transparent;
+color: blueviolet;
 }
 .overlay{
     background-color: black;
+    width: 100%;
+    height: 100%;
     inset: 0;
-    opacity: .3;
+    opacity: .5;
     position: absolute;
 }
+
+
+
 

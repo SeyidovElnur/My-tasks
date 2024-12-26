@@ -1,0 +1,89 @@
+.container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    max-width: 780px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    display: flex;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    margin-left: -15px;
+}
+.navbar li:hover{
+    border-bottom: 3px solid green;
+    transition: border-bottom ease 0.1s;
+}
+.navbar li{
+    font-size: 17px;
+    padding: 0px 25px 4px;
+}
+.logo2{
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 5px;  
+}
+main{
+    width: 100%;
+    display: flex;
+}
+h1{
+    display: flex;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.author{
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    background-color: lavender;
+    width: 200px;
+}
+article{
+
+    width: 80%;
+}
+aside{
+    padding: 20px;
+    width: 20%;
+    background-color: lavender;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ul li{
+    margin-left: -25px;
+}
+
+.nav-item{
+    position: relative;
+    overflow: hidden;
+}
+.nav-item::before{
+    content: "";
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: -150px;
+    transition: 0.5s;
+}
+.nav-item:hover::before{
+    left: 0;
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width:992px) {
+    .quantity{
+        font-size: 33px;
+    }
+    .welcome{
+        font-size: 12px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .help{
+        font-size: 16px;
+    }
+    .icons{
+        font-size: 30px;
+    }
+    .box-text{
+        font-size: 17px;
+    }
+    .text-resp{
+        font-size: 10px;
+    }
+}
