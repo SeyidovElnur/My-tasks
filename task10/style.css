@@ -7,7 +7,14 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-
+.container{
+    max-width: 1140px;
+    width: 95%;
+    margin: auto;
+}
+.main{
+    padding-top: 50px;
+}
 .image1{
     width: 100%;
     position: relative;
@@ -16,18 +23,18 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .text{
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 400;
     line-height: 120px;
-    margin-bottom: 54px;
-    margin-right: 200px;
+    /* margin-bottom: 54px;
+    margin-right: 200px; */
     position: relative;
     z-index: 1;
     display: flex;
@@ -40,12 +47,12 @@ body{
     background-color: blueviolet;
     color: white;
 
-    margin-top: 700px;
+    /* margin-top: 700px; */
     margin-left: 10px;
     border-radius: 30px;
     padding: 10px 15px;
     border: 5px solid blueviolet;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     width: fit-content;
     z-index: 1;

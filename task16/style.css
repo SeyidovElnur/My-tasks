@@ -1,0 +1,139 @@
+body {
+    background-color: #1a9ac9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box{
+    width: 780px;
+    height: 450px;
+    background-image: linear-gradient(to top, #2c96b9, #1a9ac9);
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    border: 1px solid #fff;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.rows{
+    width: 100%;
+    /* display: flex; */
+}
+.image{
+    width: 260px;
+    height: 150px;
+    border: 1px solid #ffffff;
+    position: relative;
+    transition: all 4s ease-out;
+}
+.image-1-1{
+    animation-name: move1;
+    animation-delay: 1s;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    transition: all 4s ease-out;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-1-2{
+    animation-name: move2;
+    animation-delay: 1s;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    transition: all 4s ease-out;
+    grid-column: 2/3;
+}
+.image-1-3{
+    animation-name: move3;
+    animation-delay: 1s;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    transition: all 4s ease-out;
+    grid-column: 3/4;
+}
+.image-2-1{
+    animation-name: move4;
+    animation-delay: 1s;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    transition: all 4s ease-out;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.image-2-2{
+    animation-name: move5;
+    animation-delay: 1s;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    transition: all 4s ease-out;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.image-2-3{
+    animation-name: move6;
+    animation-delay: 1s;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    transition: all 4s ease-out;
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.image-3-1{
+    animation-name: move7;
+    animation-delay: 1s;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    transition: all 4s ease-out;
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.image-3-2{
+    animation-name: move8;
+    animation-delay: 1s;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    transition: all 4s ease-out;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.image-3-3{
+    animation-name: move9;
+    animation-delay: 1s;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    transition: all 4s ease-out;
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+
+@keyframes move1 {
+   from{
+    .image-1-1;
+   }
+to{
+    .image-2-2;
+}
+}
