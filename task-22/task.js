@@ -191,3 +191,27 @@
 //     let sortedNums = [num1, num2, num3].sort((a, b) => a - b); // Сортируем числа
 //     console.log("Orta ədəd: " + sortedNums[1]); // Выводим среднее (второе число после сортировки)
 // }
+
+
+
+
+// #21
+// let nums = prompt("3 dene 2 reqemli eded daxil edin")
+// let num1 = nums.split(" ")[0]
+// let num2 = nums.split(" ")[1]
+// let num3 = nums.split(" ")[2]
+
+
+// // num3>num1>num2
+
+// if (+num1 > +num2 && +num1 < +num3 || +num1 < +num2 && +num1 > +num3) {
+//     console.log(num1);
+    
+// }else if (+num2 > +num1 && +num2 < +num3 || +num2 < +num1 && +num2 > +num3) {
+//     console.log(num2);
+// }else if (+num3 > +num1 && +num3 < +num2 || +num3 < +num1 && +num3 > +num2) {
+//     console.log(num3);
+// }else{
+//     console.log("Dogru deyer daxil edin");
+    
+// }
