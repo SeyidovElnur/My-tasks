@@ -2,8 +2,12 @@
 // const firstElem = document.querySelector(".firstElem")
 // console.log(firstElem);
 
-// #2
 
+// const liElem = document.querySelectorAll("li")[0]
+// console.log(liElem);
+
+
+// #2
 // const dele = document.querySelector("h1")
 // dele.innerHTML = "";
 
