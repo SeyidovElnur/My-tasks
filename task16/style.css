@@ -129,11 +129,25 @@ header {
 }
 
 
-@keyframes move1 {
-   from{
-    .image-1-1;
-   }
-to{
-    .image-2-2;
+@keyframes image-1-1 {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+25%{
+    left: 70px;
+        top: 0px;
+}
+50%{
+    left: 140px;
+        top: 0px;
+}
+75%{
+    left: 260px;
+        top: 0px;
+}
+100%{
+    left: 260px;
+        top: 150px;
 }
 }
