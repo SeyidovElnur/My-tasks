@@ -16,5 +16,67 @@ const data = [
     { "name": "TRON", "ticker": "TRX", "value": "0.020881", "change": "5.21%" }
 ];
 
+const tableBody = document.querySelector(".tableBody")
+const search = document.querySelector(".search-input")
+const sortName = document.querySelector(".sortName")
+const minChange = document.querySelector(".minChange")
 
-console.log(data);
+renderData(data)
+function renderData(data){
+    tableBody.innerHTML = ""
+    data.forEach(data => {
+        tableBody.innerHTML +=`
+        <tr>
+                <td>${data.name}</td>
+                <td>${data.ticker}</td>
+                <td>${data.value}</td>
+                <td>${data.change}</td>
+                </tr>
+        `
+        
+    });
+}
+
+
+
+let upSort = true;
+
+sortName.addEventListener("click",()=>{
+    let sortData;
+    if (upSort) {
+        sortData = data.sort((a, b) => a.name.localeCompare(b.name));  
+    }else{
+        sortData = data.sort((a, b) => b.name.localeCompare(a.name));
+    }
+    
+    // console.log(sortData);
+    renderData(sortData)
+    upSort=!upSort;
+})
+
+
+search.addEventListener("keyup",e=>{
+    let searchTerm = e.target.value.toLowerCase();
+   let newData = data.filter(pro=>
+    pro.name.toLowerCase().includes(searchTerm) || pro.ticker.toLowerCase().includes(searchTerm));
+   renderData(newData)
+    // console.log(newData);
+    
+})
+
+
+
+// data.forEach(data => {
+//     data.change.forEach(number=>{
+//         minChange.textContent=number
+//         if (number>0) {
+//             minChange.style.backgroundColor = 'green';
+//         }else{
+//             minChange.style.backgroundColor = 'red';
+//         }
+//         document.getElementById('output').appendChild(minChange);
+//     })
+    
+    
+// })
+
